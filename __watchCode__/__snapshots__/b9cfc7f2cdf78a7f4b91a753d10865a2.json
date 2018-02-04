@@ -58,6 +58,63 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
+      "Start": 44,
+      "End": 47
+    },
+    "ReversedLineRange": {
+      "Start": 90,
+      "End": 93
+    },
+    "Lines": [
+      "      {",
+      "        \"command\": \"extension.copyReferenceAdvanced\",",
+      "        \"key\": \"ctrl+shift+c\"",
+      "      },"
+    ],
+    "AllLinesHash": "b96a6650dc6b80e6ab7472eb2e7c18dcf80f4c86145021ca706422cbc737757d5c1f0ef21146d5e5fed365993326945ee426a03f092218476b534e35417ca052",
+    "TotalLinesInFile": 137
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 38,
+      "End": 41
+    },
+    "ReversedLineRange": {
+      "Start": 96,
+      "End": 99
+    },
+    "Lines": [
+      "      {",
+      "        \"command\": \"extension.copyReferenceAdvancedWithAdditionalText\",",
+      "        \"title\": \"CopyReference Advanced with additional text\"",
+      "      }"
+    ],
+    "AllLinesHash": "92489698f35c95452ec299a1ef9d29f1fcb64dd8e09288f6fbb89878591e57fbebc7858e376f367444cce08489c05d97a7a939fc890110da827fad720b357fd8",
+    "TotalLinesInFile": 137
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 48,
+      "End": 51
+    },
+    "ReversedLineRange": {
+      "Start": 86,
+      "End": 89
+    },
+    "Lines": [
+      "      {",
+      "        \"command\": \"extension.copyReferenceAdvancedWithAdditionalText\",",
+      "        \"key\": \"ctrl+shift+a\"",
+      "      }"
+    ],
+    "AllLinesHash": "dc166118f6a4840805c05e6cd23ff8c0d38f7883a1f2af992dfef806bd0693b41cf00dad1f6ccf9cbad262acb98d36b7ba2a2c00bd0bd458c82da524d1bb5219",
+    "TotalLinesInFile": 137
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
       "Start": 34,
       "End": 37
     },
@@ -302,21 +359,39 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 33,
+      "Start": 34,
       "End": 37
     },
     "ReversedLineRange": {
       "Start": 100,
-      "End": 104
+      "End": 103
     },
     "Lines": [
-      "    \"commands\": [",
       "      {",
       "        \"command\": \"extension.copyReferenceAdvanced\",",
       "        \"title\": \"CopyReference Advanced\"",
       "      },"
     ],
-    "AllLinesHash": "8e00ca3145a2d8bf4adc1d923a8ecef80c8c404d8822aaa37feca57c9decd15d27697573dc685606e4c1b8f21e86d8592cabbcce158f5595392d1feee37b97dc",
+    "AllLinesHash": "74c47f57dfe5922e29af629acad800c094ec2335853a10cba4de64c23b033e9ec7b529d0635266b3f2011a5193a96245527c4de6c4c794256bf769accb2f7454",
+    "TotalLinesInFile": 137
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 44,
+      "End": 47
+    },
+    "ReversedLineRange": {
+      "Start": 90,
+      "End": 93
+    },
+    "Lines": [
+      "      {",
+      "        \"command\": \"extension.copyReferenceAdvanced\",",
+      "        \"key\": \"ctrl+shift+c\"",
+      "      },"
+    ],
+    "AllLinesHash": "b96a6650dc6b80e6ab7472eb2e7c18dcf80f4c86145021ca706422cbc737757d5c1f0ef21146d5e5fed365993326945ee426a03f092218476b534e35417ca052",
     "TotalLinesInFile": 137
   },
   {
@@ -336,6 +411,25 @@
       "      }"
     ],
     "AllLinesHash": "92489698f35c95452ec299a1ef9d29f1fcb64dd8e09288f6fbb89878591e57fbebc7858e376f367444cce08489c05d97a7a939fc890110da827fad720b357fd8",
+    "TotalLinesInFile": 137
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 48,
+      "End": 51
+    },
+    "ReversedLineRange": {
+      "Start": 86,
+      "End": 89
+    },
+    "Lines": [
+      "      {",
+      "        \"command\": \"extension.copyReferenceAdvancedWithAdditionalText\",",
+      "        \"key\": \"ctrl+shift+a\"",
+      "      }"
+    ],
+    "AllLinesHash": "dc166118f6a4840805c05e6cd23ff8c0d38f7883a1f2af992dfef806bd0693b41cf00dad1f6ccf9cbad262acb98d36b7ba2a2c00bd0bd458c82da524d1bb5219",
     "TotalLinesInFile": 137
   }
 ]

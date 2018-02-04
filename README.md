@@ -15,8 +15,11 @@ result e.g. `path/to/file.txt:1-10`
 Just what the description says: copy line numbers with absolute/relative file path
 
 <!-- @watch package.json 34-37 -->
+<!-- @watch package.json 44-47 -->
 - Use `ctrl+shift+c` to copy the file path & selected line numbers  
 
+<!-- @watch package.json 38-41 -->
+<!-- @watch package.json 48-51 -->
 - Use `ctrl+shift+a` to copy the file path & selected line numbers with the wrapping additional texts (see `copyReferenceAdvanced.prependToCopiedText` and `copyReferenceAdvanced.appendToCopiedText`)
 
 or

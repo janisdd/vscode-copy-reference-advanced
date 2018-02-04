@@ -25,7 +25,8 @@ export function activate(context: vscode.ExtensionContext) {
     // Now provide the implementation of the command with  registerCommand
     // The commandId parameter must match the command field in package.json
     
-    /* @watch package.json 33-37 */
+    /* @watch package.json 34-37 */
+    /* @watch package.json 44-47 */
     let disposable = vscode.commands.registerCommand('extension.copyReferenceAdvanced', () => {
         // The code you place here will be executed every time your command is executed
         copyReferenceAdvanced(statusBarHelper, false)
@@ -33,6 +34,7 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
     /* @watch package.json 38-41 */
+    /* @watch package.json 48-51 */
     let disposable2 = vscode.commands.registerCommand('extension.copyReferenceAdvancedWithAdditionalText', () => {
         // The code you place here will be executed every time your command is executed
         copyReferenceAdvanced(statusBarHelper, true)
@@ -62,16 +64,27 @@ function copyReferenceAdvanced(statusBarHelper: StatusBarHelper, useAppendTexts:
     
     let config = vscode.workspace.getConfiguration('copyReferenceAdvanced')
 
+    /* @watch package.json 56-60 */
     let lineOffset: number = config.get('lineOffset')
+    /* @watch package.json 61-65 */
     let pathLineNumberDelimiter: string = config.get('pathLineNumberDelimiter')
+    /* @watch package.json 66-70 */
     let lineNumberDelimiter: string = config.get('lineNumberDelimiter')
+    /* @watch package.json 71-75 */
     let collapseSingleLineNumbers: boolean = config.get('collapseSingleLineNumbers')
+    /* @watch package.json 76-80 */
     let prependToPath: string = config.get('prependToPath')
+    /* @watch package.json 81-85 */
     let appendToPath: string = config.get('appendToPath')
+    /* @watch package.json 86-95 */
     let pathMode: PathMode = config.get('pathMode')
+    /* @watch package.json 96-100 */
     let failIfNoFolderIsOpen: boolean = config.get('failIfNoFolderIsOpen')
+    /* @watch package.json 101-105 */
     let displayCopiedTimeoutInMs: number =  config.get('displayCopiedTimeoutInMs')
+    /* @watch package.json 106-110 */
     let prependToCopiedText: string = config.get('prependToCopiedText')
+    /* @watch package.json 111-115 */
     let appendToCopiedText: string = config.get('appendToCopiedText')
 
     let selection = editor.selection
