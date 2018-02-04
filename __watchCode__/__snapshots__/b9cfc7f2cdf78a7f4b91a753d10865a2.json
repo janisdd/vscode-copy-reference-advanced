@@ -13,7 +13,12 @@
       "  \"version\": \"0.0.1\","
     ],
     "AllLinesHash": "4ff4350f46464acbbb92d14691cdbadba50c129e3334aa607b1d7c9b98374c015618318f20c01ea9c7905923b017450e8f90b9902f24a5ca09bb2c4dd666e34f",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -34,7 +39,12 @@
       "        },"
     ],
     "AllLinesHash": "8060ee4ac2e16b14e594dcb2e215cde834a32012586cad0d7fb8414cf8a2b3cd421238e99165be3a66845590f5452152e490971c0a2e7aabc62f9cc983ad9c66",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -53,7 +63,12 @@
       "      }"
     ],
     "AllLinesHash": "81c4778168f8ef07e4e685131b50ba924da48997ef4e63a2e894b3bfa6c508f2c42f9036642729463c7deb7fbdde81dfe2f5e1251fb559d71e219c7c33cb87b6",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -72,7 +87,12 @@
       "      }"
     ],
     "AllLinesHash": "81c4778168f8ef07e4e685131b50ba924da48997ef4e63a2e894b3bfa6c508f2c42f9036642729463c7deb7fbdde81dfe2f5e1251fb559d71e219c7c33cb87b6",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -92,7 +112,12 @@
       "        },"
     ],
     "AllLinesHash": "4406cbce12e40a5e7a5f4cb4a0c776c176da37f5daabfe4334bfbea096de2f9e7f42c86f73e16e62dc3281ddf9e531b9445e0c8616f6dd15e5016fa83a7bb61a",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -112,7 +137,12 @@
       "        },"
     ],
     "AllLinesHash": "f96aa35b8c936379d61b9fb1ef906eadda362e91a45207e12e4a7a80cf5d5af1f1c25b634d4f600c46112f01f8a28930cb77e65aef298b2fefee631cfd12cb31",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -132,7 +162,12 @@
       "        },"
     ],
     "AllLinesHash": "8aace336261765d77892728ce3df119ab5e5f6612a28c9934c614956fb82e2a11e1328f8af6152f7879add03785aa1f791af67a74d387bcace32e3956f3ddd51",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -152,7 +187,12 @@
       "        },"
     ],
     "AllLinesHash": "a5efbfdf7c1070317380b4fce05e7efec119a6372aadd3a9d78d3a63fb2319801d803426697701454da9e6ef650ab7e2547222ebb76414b5843b4487253b921c",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -172,7 +212,12 @@
       "        },"
     ],
     "AllLinesHash": "ceb507c3da884f8903d54c49e17257379922fce616aa7143c074aa87b3ec5e61128157944da9fe2f0d09d0a89db32ee0d8cd8b06a01b45443a2b978f924e4cbd",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -192,7 +237,12 @@
       "        },"
     ],
     "AllLinesHash": "291a063bbdf615eba5cff379a7c04ad13c6c2686af02b61c6f263eddaf9b29f21e73bc2810df7c03c749fdc944011fd04fd397685692b6110b7cdc3925d760b2",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -217,7 +267,12 @@
       "        },"
     ],
     "AllLinesHash": "7153fcf841a1e534952f8f7ee906020d75b17126dc20252c5256c72d28b5398441ad2f0bdb7cdbabf7297fbb834c4a9098f4972dcd31d0e9908941f2b34670b8",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -237,7 +292,12 @@
       "        },"
     ],
     "AllLinesHash": "7c2c1338562bcf247959906a77179615c4009c622101181ae9fdbaf1b7335d6e2cfe725db19f46e6751cbd7f07b0da8ea7b2655bae032e1e60821943bff85cc7",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -257,7 +317,12 @@
       "        },"
     ],
     "AllLinesHash": "637a205ff5b4912800c81d8dba90dbf837bd27d626b1dbc0bebdc8c568a3b11cfcbfe41980816ec77eff701776bd38e9b1217a38cb46224ba455a656abef272f",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -277,7 +342,12 @@
       "        },"
     ],
     "AllLinesHash": "a9ba572f1b36d78623ee4e9e7d9807157ee99420687020f521de4dd7a68bd3a0e71d4f6c110585bed07dde1ae84d650fc6422bb793c6b905bdd94e8744b283ef",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -297,7 +367,12 @@
       "        }"
     ],
     "AllLinesHash": "a02d155bdddda926eba28e16757226cc349a87bfd122020e7888fc846c66b1e3307a759ea11ec6f525cc3800e6d4786db1bcf5474d54235754e1fba81471835f",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -316,7 +391,12 @@
       "      }"
     ],
     "AllLinesHash": "817d1f10b418238f19a837c5f37df7a8307417623b8d2d1424d0bab6449497fe640f1d036616239e752e779218d4e0b7c736f1bf2ae279c6c6d5ae8d78e45ce8",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "/*",
+      "EndCommentPart": "*/",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -335,6 +415,11 @@
       "      }"
     ],
     "AllLinesHash": "81c4778168f8ef07e4e685131b50ba924da48997ef4e63a2e894b3bfa6c508f2c42f9036642729463c7deb7fbdde81dfe2f5e1251fb559d71e219c7c33cb87b6",
-    "TotalLinesInFile": 129
+    "TotalLinesInFile": 129,
+    "UsedCommentFormat": {
+      "StartCommentPart": "/*",
+      "EndCommentPart": "*/",
+      "IsMultiLine": true
+    }
   }
 ]

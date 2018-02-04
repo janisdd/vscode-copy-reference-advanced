@@ -10,7 +10,11 @@
       "Start": 3,
       "End": 3
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -23,7 +27,11 @@
       "Start": 9,
       "End": 9
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -36,7 +44,11 @@
       "Start": 17,
       "End": 17
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -49,7 +61,11 @@
       "Start": 23,
       "End": 23
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -62,7 +78,11 @@
       "Start": 28,
       "End": 28
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -75,7 +95,11 @@
       "Start": 31,
       "End": 31
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -88,7 +112,11 @@
       "Start": 34,
       "End": 34
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -101,7 +129,11 @@
       "Start": 37,
       "End": 37
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -114,7 +146,11 @@
       "Start": 40,
       "End": 40
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -127,7 +163,11 @@
       "Start": 43,
       "End": 43
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -140,7 +180,11 @@
       "Start": 46,
       "End": 46
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -153,7 +197,11 @@
       "Start": 49,
       "End": 49
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -166,7 +214,11 @@
       "Start": 52,
       "End": 52
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -179,7 +231,11 @@
       "Start": 55,
       "End": 55
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -192,7 +248,11 @@
       "Start": 58,
       "End": 58
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "<!--",
+      "EndCommentPart": "-->",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -205,7 +265,11 @@
       "Start": 28,
       "End": 28
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "/*",
+      "EndCommentPart": "*/",
+      "IsMultiLine": true
+    }
   },
   {
     "SourceFilePath": "package.json",
@@ -218,6 +282,10 @@
       "Start": 35,
       "End": 35
     },
-    "UsedCommentFormat": null
+    "UsedCommentFormat": {
+      "StartCommentPart": "/*",
+      "EndCommentPart": "*/",
+      "IsMultiLine": true
+    }
   }
 ]
