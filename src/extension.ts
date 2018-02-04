@@ -24,19 +24,22 @@ export function activate(context: vscode.ExtensionContext) {
     // The command has been defined in the package.json file
     // Now provide the implementation of the command with  registerCommand
     // The commandId parameter must match the command field in package.json
+    
+    /* @watch package.json 40-43 */
     let disposable = vscode.commands.registerCommand('extension.copyReferenceAdvanced', () => {
         // The code you place here will be executed every time your command is executed
-        copyReferenceAdvanced(statusBarHelper, true)
+        copyReferenceAdvanced(statusBarHelper, false)
 
     });
 
-    // let disposable2 = vscode.commands.registerCommand('extension.copyReferenceAdvancedWithAppendText', () => {
-    //     // The code you place here will be executed every time your command is executed
-    //     copyReferenceAdvanced(statusBarHelper, true)
-    // });
+    /* @watch package.json 34-37 */
+    let disposable2 = vscode.commands.registerCommand('extension.copyReferenceAdvancedWithAdditionalText', () => {
+        // The code you place here will be executed every time your command is executed
+        copyReferenceAdvanced(statusBarHelper, true)
+    });
 
     context.subscriptions.push(disposable);
-    //context.subscriptions.push(disposable2);
+    context.subscriptions.push(disposable2);
     context.subscriptions.push(statusBarHelper);
 }
 

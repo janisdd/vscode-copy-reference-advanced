@@ -1,0 +1,223 @@
+[
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 5,
+      "End": 5
+    },
+    "DocFilePath": "CHANGELOG.md",
+    "DocLineRange": {
+      "Start": 3,
+      "End": 3
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 47,
+      "End": 52
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 9,
+      "End": 9
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 34,
+      "End": 37
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 17,
+      "End": 17
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 34,
+      "End": 37
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 23,
+      "End": 23
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 48,
+      "End": 52
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 28,
+      "End": 28
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 53,
+      "End": 57
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 31,
+      "End": 31
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 58,
+      "End": 62
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 34,
+      "End": 34
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 63,
+      "End": 67
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 37,
+      "End": 37
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 68,
+      "End": 72
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 40,
+      "End": 40
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 73,
+      "End": 77
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 43,
+      "End": 43
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 78,
+      "End": 87
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 46,
+      "End": 46
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 88,
+      "End": 92
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 49,
+      "End": 49
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 93,
+      "End": 97
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 52,
+      "End": 52
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 98,
+      "End": 102
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 55,
+      "End": 55
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 103,
+      "End": 107
+    },
+    "DocFilePath": "README.md",
+    "DocLineRange": {
+      "Start": 58,
+      "End": 58
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 40,
+      "End": 43
+    },
+    "DocFilePath": "src/extension.ts",
+    "DocLineRange": {
+      "Start": 28,
+      "End": 28
+    },
+    "UsedCommentFormat": null
+  },
+  {
+    "SourceFilePath": "package.json",
+    "LineRange": {
+      "Start": 34,
+      "End": 37
+    },
+    "DocFilePath": "src/extension.ts",
+    "DocLineRange": {
+      "Start": 35,
+      "End": 35
+    },
+    "UsedCommentFormat": null
+  }
+]

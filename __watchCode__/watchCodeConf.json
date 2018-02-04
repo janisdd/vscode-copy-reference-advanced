@@ -1,0 +1,19 @@
+{
+  "KnownFileExtensionsWithoutExtension": {
+    "md": [
+      {
+        "StartCommentPart": "<!--",
+        "EndCommentPart": "-->",
+        "IsMultiLine": true
+
+      }
+    ],
+    "ts": [
+      {
+        "StartCommentPart": "/*",
+        "EndCommentPart": "*/",
+        "IsMultiLine": true
+      }
+    ]
+  }
+}

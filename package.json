@@ -34,12 +34,20 @@
       {
         "command": "extension.copyReferenceAdvanced",
         "title": "CopyReference Advanced"
+      },
+      {
+        "command": "extension.copyReferenceAdvancedWithAdditionalText",
+        "title": "CopyReference Advanced with additional text"
       }
     ],
     "keybindings": [
       {
         "command": "extension.copyReferenceAdvanced",
         "key": "ctrl+shift+c"
+      },
+      {
+        "command": "extension.copyReferenceAdvancedWithAdditionalText",
+        "key": "ctrl+shift+a"
       }
     ],
     "configuration": {

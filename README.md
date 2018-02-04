@@ -2,23 +2,26 @@
 
 Copy selected line number(s) with absolute/relative file path
 
-e.g. `path/to/file.txt:1-10`
+result e.g. `path/to/file.txt:1-10`
 
 ## Hints
 
 <!-- @watch package.json 47-52 -->
 - Line numbers start with 1 by default (see Configuration to change this)
+- if nothing is selected the line of the cursor is taken
 
 ## Features
 
 Just what the description says: copy line numbers with absolute/relative file path
 
-<!-- @watch package.json 40-43 -->
-Use `ctrl+shift+c` to copy the file path & selected line numbers  
+<!-- @watch package.json 34-37 -->
+- Use `ctrl+shift+c` to copy the file path & selected line numbers  
+
+- Use `ctrl+shift+a` to copy the file path & selected line numbers with the wrapping additional texts (see `copyReferenceAdvanced.prependToCopiedText` and `copyReferenceAdvanced.appendToCopiedText`)
 
 or
 <!-- @watch package.json 34-37 -->
-use the command palette search for `CopyReference Advanced`
+use the command palette search for `CopyReference Advanced` or `CopyReference Advanced with additional text`
 
 ## Configuration
 
