@@ -19,8 +19,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 47,
-      "End": 52
+      "Start": 55,
+      "End": 60
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -70,8 +70,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 48,
-      "End": 52
+      "Start": 56,
+      "End": 60
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -87,8 +87,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 53,
-      "End": 57
+      "Start": 61,
+      "End": 65
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -104,8 +104,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 58,
-      "End": 62
+      "Start": 66,
+      "End": 70
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -121,8 +121,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 63,
-      "End": 67
+      "Start": 71,
+      "End": 75
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -138,8 +138,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 68,
-      "End": 72
+      "Start": 76,
+      "End": 80
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -155,8 +155,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 73,
-      "End": 77
+      "Start": 81,
+      "End": 85
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -172,8 +172,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 78,
-      "End": 87
+      "Start": 86,
+      "End": 95
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -189,8 +189,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 88,
-      "End": 92
+      "Start": 96,
+      "End": 100
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -206,8 +206,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 93,
-      "End": 97
+      "Start": 101,
+      "End": 105
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -223,8 +223,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 98,
-      "End": 102
+      "Start": 106,
+      "End": 110
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -240,8 +240,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 103,
-      "End": 107
+      "Start": 111,
+      "End": 115
     },
     "DocFilePath": "README.md",
     "DocLineRange": {
@@ -257,8 +257,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 40,
-      "End": 43
+      "Start": 33,
+      "End": 37
     },
     "DocFilePath": "src/extension.ts",
     "DocLineRange": {
@@ -274,8 +274,8 @@
   {
     "SourceFilePath": "package.json",
     "LineRange": {
-      "Start": 34,
-      "End": 37
+      "Start": 38,
+      "End": 41
     },
     "DocFilePath": "src/extension.ts",
     "DocLineRange": {
