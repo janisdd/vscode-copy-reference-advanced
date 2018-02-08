@@ -2,7 +2,7 @@
   "name": "copy-reference-advanced",
   "displayName": "CopyReference Advanced",
   "description": "Copies relative/absolute file path with line number(s)",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "janisdd",
   "engines": {
     "vscode": "^1.19.0"
@@ -27,7 +27,9 @@
   "homepage": "https://github.com/janisdd/vscode-copy-reference-advanced/blob/master/README.md",
   "activationEvents": [
     "onCommand:extension.copyReferenceAdvanced",
-    "onCommand:extension.copyReferenceAdvancedWithAdditionalText"
+    "onCommand:extension.copyReferenceAdvancedWithAdditionalText",
+    "onCommand:extension.copyReferenceAdvancedIgnoreLineNumbers",
+    "onCommand:extension.copyReferenceAdvancedWithAdditionalTextIgnoreLineNumbers"
   ],
   "main": "./out/extension",
   "contributes": {
@@ -38,7 +40,15 @@
       },
       {
         "command": "extension.copyReferenceAdvancedWithAdditionalText",
-        "title": "CopyReference Advanced with additional text"
+        "title": "CopyReference Advanced with additional text (prependToCopiedText & appendToCopiedText)"
+      },
+      {
+        "command": "extension.copyReferenceAdvancedIgnoreLineNumbers",
+        "title": "CopyReference Advanced with additional text (prependToCopiedText & appendToCopiedText) and ignores the line numbers part (ignores setting)"
+      },
+      {
+        "command": "extension.copyReferenceAdvancedWithAdditionalTextIgnoreLineNumbers",
+        "title": "CopyReference Advanced with additional text (prependToCopiedText & appendToCopiedText) and ignores the line numbers part (ignores setting)"
       }
     ],
     "keybindings": [
@@ -123,6 +133,11 @@
           "type": "string",
           "default": "",
           "description": "Some text that should be appended to the lines text e.g. L --> 1-10L"
+        },
+        "copyReferenceAdvanced.copyLineNumbers": {
+          "type": "boolean",
+          "default": "true",
+          "description": "True: copy line numbers & delimiter, false: only path"
         }
       }
     }

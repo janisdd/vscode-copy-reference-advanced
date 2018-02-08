@@ -24,12 +24,12 @@ export function activate(context: vscode.ExtensionContext) {
     // The command has been defined in the package.json file
     // Now provide the implementation of the command with  registerCommand
     // The commandId parameter must match the command field in package.json
-    
+
     /* @watch package.json 34-37 */
     /* @watch package.json 44-47 */
     let disposable = vscode.commands.registerCommand('extension.copyReferenceAdvanced', () => {
         // The code you place here will be executed every time your command is executed
-        copyReferenceAdvanced(statusBarHelper, false)
+        copyReferenceAdvanced(statusBarHelper, false, null)
 
     });
 
@@ -37,11 +37,23 @@ export function activate(context: vscode.ExtensionContext) {
     /* @watch package.json 48-51 */
     let disposable2 = vscode.commands.registerCommand('extension.copyReferenceAdvancedWithAdditionalText', () => {
         // The code you place here will be executed every time your command is executed
-        copyReferenceAdvanced(statusBarHelper, true)
+        copyReferenceAdvanced(statusBarHelper, true, null)
+    });
+
+    let disposable3 = vscode.commands.registerCommand('extension.copyReferenceAdvancedIgnoreLineNumbers', () => {
+        // The code you place here will be executed every time your command is executed
+        copyReferenceAdvanced(statusBarHelper, false, false)
+    });
+
+    let disposable4 = vscode.commands.registerCommand('extension.copyReferenceAdvancedWithAdditionalTextIgnoreLineNumbers', () => {
+        // The code you place here will be executed every time your command is executed
+        copyReferenceAdvanced(statusBarHelper, true, false)
     });
 
     context.subscriptions.push(disposable);
     context.subscriptions.push(disposable2);
+    context.subscriptions.push(disposable3);
+    context.subscriptions.push(disposable4);
     context.subscriptions.push(statusBarHelper);
 }
 
@@ -49,8 +61,9 @@ export function activate(context: vscode.ExtensionContext) {
  * main method
  * @param statusBarHelper the status bar helper
  * @param useAppendTexts true: use the append to copied texts if any, false: not (may be used for another shortcut...)
+ * @param copyLineNumbersToo true: force copy line numbers (ignore settings), false: force don't copy line numbers (ignore copy), null: use setting
  */
-function copyReferenceAdvanced(statusBarHelper: StatusBarHelper, useAppendTexts: boolean) {
+function copyReferenceAdvanced(statusBarHelper: StatusBarHelper, useAppendTexts: boolean, copyLineNumbersToo: boolean | null) {
 
     let editor = vscode.window.activeTextEditor
 
@@ -61,7 +74,7 @@ function copyReferenceAdvanced(statusBarHelper: StatusBarHelper, useAppendTexts:
 
     //get settings before every call else we might get outdated values
     //(if the user changed settings and didn't restart vs code)
-    
+
     let config = vscode.workspace.getConfiguration('copyReferenceAdvanced')
 
     /* @watch package.json 56-60 */
@@ -81,7 +94,7 @@ function copyReferenceAdvanced(statusBarHelper: StatusBarHelper, useAppendTexts:
     /* @watch package.json 96-100 */
     let failIfNoFolderIsOpen: boolean = config.get('failIfNoFolderIsOpen')
     /* @watch package.json 101-105 */
-    let displayCopiedTimeoutInMs: number =  config.get('displayCopiedTimeoutInMs')
+    let displayCopiedTimeoutInMs: number = config.get('displayCopiedTimeoutInMs')
     /* @watch package.json 106-110 */
     let prependToCopiedText: string = config.get('prependToCopiedText')
     /* @watch package.json 111-115 */
@@ -90,6 +103,13 @@ function copyReferenceAdvanced(statusBarHelper: StatusBarHelper, useAppendTexts:
     let prependToLines: string = config.get('prependToLines')
 
     let appendToLines: string = config.get('appendToLines')
+
+    let copyLineNumbers: boolean = config.get('copyLineNumbers')
+
+    if (copyLineNumbersToo !== null) {
+        copyLineNumbers = copyLineNumbersToo
+    }
+
 
     let selection = editor.selection
 
@@ -117,7 +137,12 @@ function copyReferenceAdvanced(statusBarHelper: StatusBarHelper, useAppendTexts:
     rootPathAbsolute = workspace.getWorkspaceFolder(editor.document.uri)
 
     if (pathMode === "absolutePaths") {
-        resultString = `${prependToCopiedText}${prependToPath}${fileAbsolutePath}${appendToPath}${pathLineNumberDelimiter}${linesRange}${appendToCopiedText}`
+        let pathPart = `${prependToPath}${fileAbsolutePath}${appendToPath}`
+
+        resultString = copyLineNumbers
+            ? `${prependToCopiedText}${pathPart}${pathLineNumberDelimiter}${linesRange}${appendToCopiedText}`
+            : `${prependToCopiedText}${pathPart}${appendToCopiedText}`
+
         copyToClipboard(resultString, statusBarHelper, displayCopiedTimeoutInMs)
         return
     }
@@ -129,7 +154,13 @@ function copyReferenceAdvanced(statusBarHelper: StatusBarHelper, useAppendTexts:
             vscode.window.showWarningMessage(`${appDisplayName} You must open a folder for this action to work (because you specified relative paths and failIfNoFolderIsOpen is set to true).`)
             return
         }
-        resultString = `${prependToCopiedText}${prependToPath}${fileAbsolutePath}${appendToPath}${pathLineNumberDelimiter}${linesRange}${appendToCopiedText}`
+
+        let pathPart = `${prependToPath}${fileAbsolutePath}${appendToPath}`
+
+        resultString = copyLineNumbers
+            ? `${prependToCopiedText}${pathPart}${pathLineNumberDelimiter}${linesRange}${appendToCopiedText}`
+            : `${prependToCopiedText}${pathPart}${appendToCopiedText}`
+
         copyToClipboard(resultString, statusBarHelper, displayCopiedTimeoutInMs)
         return
     }
@@ -140,13 +171,25 @@ function copyReferenceAdvanced(statusBarHelper: StatusBarHelper, useAppendTexts:
 
     if (pathMode === "relativePaths") {
         let relativePath = workspace.asRelativePath(fileAbsolutePath, true)
-        resultString = `${prependToCopiedText}${prependToPath}${relativePath}${appendToPath}${pathLineNumberDelimiter}${linesRange}${appendToCopiedText}`
+
+        let pathPart = `${prependToPath}${relativePath}${appendToPath}`
+
+        resultString = copyLineNumbers
+            ? `${prependToCopiedText}${pathPart}${pathLineNumberDelimiter}${linesRange}${appendToCopiedText}`
+            : `${prependToCopiedText}${pathPart}${appendToCopiedText}`
+
         copyToClipboard(resultString, statusBarHelper, displayCopiedTimeoutInMs)
         return
     }
     else if (pathMode === "relativePathsWithoutFolderName") {
         let relativePath = workspace.asRelativePath(fileAbsolutePath, false)
-        resultString = `${prependToCopiedText}${prependToPath}${relativePath}${appendToPath}${pathLineNumberDelimiter}${linesRange}${appendToCopiedText}`
+
+        let pathPart = `${prependToPath}${relativePath}${appendToPath}`
+
+        resultString = copyLineNumbers
+            ? `${prependToCopiedText}${pathPart}${pathLineNumberDelimiter}${linesRange}${appendToCopiedText}`
+            : `${prependToCopiedText}${pathPart}${appendToCopiedText}`
+
         copyToClipboard(resultString, statusBarHelper, displayCopiedTimeoutInMs)
         return
     }
