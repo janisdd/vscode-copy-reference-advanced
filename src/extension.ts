@@ -87,6 +87,10 @@ function copyReferenceAdvanced(statusBarHelper: StatusBarHelper, useAppendTexts:
     /* @watch package.json 111-115 */
     let appendToCopiedText: string = config.get('appendToCopiedText')
 
+    let prependToLines: string = config.get('prependToLines')
+
+    let appendToLines: string = config.get('appendToLines')
+
     let selection = editor.selection
 
     let startLine = selection.start.line + lineOffset;
@@ -97,6 +101,8 @@ function copyReferenceAdvanced(statusBarHelper: StatusBarHelper, useAppendTexts:
     linesRange = selection.isSingleLine && collapseSingleLineNumbers
         ? `${startLine}`
         : `${startLine}${lineNumberDelimiter}${endLine}`
+
+    linesRange = `${prependToLines}${linesRange}${appendToLines}`
 
     let fileAbsolutePath = editor.document.fileName
 

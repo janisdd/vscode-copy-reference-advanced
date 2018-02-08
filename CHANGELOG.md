@@ -1,6 +1,7 @@
 # Change Log
 
 <!-- @watch package.json 5 -->
-## 0.0.1
+
+## 1.0.0
 
 - Initial release

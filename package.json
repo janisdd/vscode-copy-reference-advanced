@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/janisdd/vscode-copy-reference-advanced/blob/master/README.md",
   "activationEvents": [
-    "onCommand:extension.copyReferenceAdvanced"
+    "onCommand:extension.copyReferenceAdvanced",
+    "onCommand:extension.copyReferenceAdvancedWithAdditionalText"
   ],
   "main": "./out/extension",
   "contributes": {
@@ -112,6 +113,16 @@
           "type": "string",
           "default": "",
           "description": "Some text that should be appended to the whole copied text"
+        },
+        "copyReferenceAdvanced.prependToLines": {
+          "type": "string",
+          "default": "",
+          "description": "Some text that should be prepended to the lines text"
+        },
+        "copyReferenceAdvanced.appendToLines": {
+          "type": "string",
+          "default": "",
+          "description": "Some text that should be appended to the lines text e.g. L --> 1-10L"
         }
       }
     }
